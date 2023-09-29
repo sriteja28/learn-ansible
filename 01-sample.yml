@@ -4,3 +4,6 @@
     - name: Print Hello world
       ansible.builtin.debug:
         msg: Hello World from Ansible
+
+- name: Demo
+  ansible.builtin.shell:
